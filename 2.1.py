@@ -63,3 +63,21 @@ print(allNumbers)
 
 evenNumbers = set(range(0,11,2))
 print(evenNumbers)
+
+print(allNumbers.intersection(evenNumbers))
+
+print(allNumbers.union(evenNumbers))
+
+
+
+
+# maxRange([10, 15, 20, 2, 10, 6]) ➞ 18
+# maxRange([3, 6, -9, -4, -2, 15]) ➞ 24
+def maxRange():
+    x = [10, 15, 20, 2, 10, 6]
+    y = min(x)
+    z = max(x)
+
+    difference = z-y
+    return difference
+print(maxRange())
