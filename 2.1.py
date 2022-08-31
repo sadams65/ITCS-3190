@@ -1,4 +1,4 @@
-import pandas
+
 import numpy as np
 from random import randint
 import statistics as stats
@@ -54,3 +54,12 @@ newDict = {"FirstName": "Seth", "LastName": "Adams", "ClassStanding": "Senior"}
 print(newDict)
 newDict["Age"] = "22"
 newDict["StudentIDNumber"] = "801091940"
+print(newDict)
+del newDict["ClassStanding"]
+print(newDict)
+
+allNumbers = set(range(1,20))
+print(allNumbers)
+
+evenNumbers = set(range(0,11,2))
+print(evenNumbers)
