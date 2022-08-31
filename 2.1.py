@@ -52,3 +52,5 @@ print(allDays)
 
 newDict = {"FirstName": "Seth", "LastName": "Adams", "ClassStanding": "Senior"}
 print(newDict)
+newDict["Age"] = "22"
+newDict["StudentIDNumber"] = "801091940"
