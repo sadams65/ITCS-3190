@@ -3,12 +3,12 @@ import numpy as np
 from random import randint
 import statistics as stats
 
-
+# this was the best way I could turn this in as a python file
 
 FirstName = "Seth"
 LastName = "Adams"
 StudentIDNumber = 101
-print(FirstName, LastName, StudentIDNumber)
+print("My name is " + FirstName + " " + LastName + " and my ID is " + StudentIDNumber)
 
 
 numList = [24,84,28,55,58,82,98,12,14,8,64,30,78]
@@ -63,6 +63,8 @@ print(allNumbers)
 
 evenNumbers = set(range(0,11,2))
 print(evenNumbers)
+
+allNumbers = set(range(1,21))
 
 print(allNumbers.intersection(evenNumbers))
 
